@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <p>PORTFOLIO</p>
+            <button onclick="window.open('https://www.linkedin.com/in/harshil-suthar-942307249/')">About</button>
+            <button onclick="window.open('https://github.com/harris8099')">Project</button>
+            <button onclick="sendEmail();">Contact</button>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./profile.jpg" alt="bio">
+        </div>
+        <div class="section__text">
+            <p class="section__text-greet">Hello, I'm</p>
+            <h1 class="section__text-name">Harshil Suthar</h1>
+            <p class="section__text-p1">Python Developer</p>
+            <div class="btn-container">
+                <button class="btn" onclick="sendEmail();">Contact Info</button>
+                <button class="btn" onclick="window.open('./Resume.pdf')">Download CV</button>
+            </div>
+            <div class="social-icon">
+                <a href="https://github.com/harris8099"><img src="./bxl-github.svg" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/harshil-suthar-942307249/"><img src="./bxl-linkedin-square.svg" alt="github"></a>
+            </div>
+        </div>
+    </section>
+    <section id="detail">
+        <div class="section__detail">
+            <div class="detail-container">
+                <h2>About Me</h2>
+                <div class="about-container">
+                    <p>As an aspiring Python developer, I thrive on challenges and love to unravel complex problems.
+                        My journey began with a fascination for clean code and a desire to create meaningful applications.
+                        I’m currently exploring web development and backend technologies, and I’m continuously expanding
+                        concepts through online courses and personal projects. I’m excited to collaborate with like-minded
+                        individuals and contribute to innovative solutions. Let’s build something great together!</p>
+                </div>
+            </div>
+            <div class="detail-container">
+                <h2>Experience</h2>
+                <div class="experience-container">
+                    <ul>
+                        <li>Web Scraping</li>
+                        <li>Automation</li>
+                        <li>Web Development</li>
+                        <li>API Development</li>
+                        <li>Database Management</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="detail-container">
+                <h2>Skills</h2>
+
+                <div class="article-container">
+                    <article>
+                    <img src="./check.svg" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>Python</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="./check.svg" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>Flask</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="./check.svg" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>HTML</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="./check.svg" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="./check.svg" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>JavaScript</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src="./check.svg" alt="Experience icon" class="icon">
+                    <div>
+                      <h3>Material UI</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <p>Harshil Suthar</p>
+            <p>© 2021 All Rights Reserved</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

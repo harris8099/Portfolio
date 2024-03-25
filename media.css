@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+  .head button {
+  display: none;
+  }
+  .head p{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #profile{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+  }
+  .section__text {
+    gap: 0.3rem;
+  }
+/*.section__pic-container{*/
+/*    height: 50vh;*/
+/*  }*/
+.section__detail{
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+.detail-container{
+      width: 80%;
+}
+}
