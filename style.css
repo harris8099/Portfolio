@@ -31,15 +31,18 @@ body{
 
 .head p {
     color: white;
-    font-size: 2rem;
+    font-size: 3vh;
     flex: 1;
 }
 .head button {
     justify-content: center;
-    border-radius: 2rem;
+    border-radius: 5rem;
     border: none;
-    width: 6rem;
+    width: 10vh;
     height: 6vh;
+
+    /*padding: 1rem;*/
+
     background-color: #00ADB5;
     text-align: center;
     cursor: pointer;
@@ -66,8 +69,8 @@ body{
 .section__pic-container{
     /*position: relative;*/
     display: flex;
-    height: 350px;
-    width: 350px;
+    height: 35vh;
+    width: 35vh;
     /*margin: auto 0;*/
 }
 #profile .section__pic-container img{
@@ -79,10 +82,14 @@ body{
     display: flex;
     gap: 1.2rem;
 }
+
 .btn-container button {
-    border-radius: 2rem;
+    border-radius: 5rem;
     border: none;
-    width: 7rem;
+
+    width: 15vh;
+    /*padding: 1rem;*/
+
     height: 6vh;
     background-color: #00ADB5;
     text-align: center;
@@ -98,13 +105,13 @@ body{
     gap: 0.5rem;
 }
 .section__text-greet {
-    font-size: 1.5rem;
+    font-size: 2vh;
 }
 .section__text h1 {
-    font-size: 2rem;
+    font-size: 3vh;
 }
 .section__text-p1 {
-    font-size: 1.5rem;
+    font-size: 1.8vh;
     font-family: "Calibri", sans-serif;
 }
 .social-icon {
@@ -112,7 +119,7 @@ body{
     gap: 1rem;
 }
 .social-icon img{
-    height: 3.5rem;
+    height: 7vh;
     cursor: pointer;
 }
 /* to be changed */
