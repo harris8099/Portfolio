@@ -2,7 +2,9 @@
 
 Welcome to my personal portfolio! This is a central hub where I showcase my journey as a developer, my technical skills, and the projects I've built (like my 80s Breakout Clone).
 
-**🔗 Live Demo:** [https://harris8099.github.io/Portfolio/](https://harris8099.github.io/Portfolio/)
+**🔗 Live Demo:** 
+
+Check out the live site here: [https://harris8099.github.io/Portfolio/](https://harris8099.github.io/Portfolio/)
 
 ---
 
